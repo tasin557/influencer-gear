@@ -1,0 +1,122 @@
+header{
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 70px;
+}
+.top-banner{
+    height: 700px;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    margin-left: 100px;
+    width: 500px;
+    background-image: url(images/Circle\ design.svg);
+    background-size: 470px;
+    background-repeat: no-repeat;
+}
+.button{
+    width: 155px;
+    height: 32px;
+    padding-top: 10px;
+    justify-content:flex-start;
+    background-color: rgb(170, 2, 148);
+    border-radius: 25px;
+}
+span{
+    font-size: 19px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.branding{
+    height: 80px;
+    padding-left: 150px;
+    padding-right: 80px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-left: 200px;
+    margin-right: 250px;
+    border-top: 1px solid rgba(128, 128, 128, 0.205);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+}
+.branding img{
+    width: 100px;
+}
+.products{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Products-head{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.product{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-rows: 180px;
+    grid-row-gap: 1px;
+    box-shadow: 0 0 10px #888888;
+}
+.product img{
+    width: 250px;
+    height: 200px;
+}
+.details{
+    padding-left: 10px;
+}
+.price{
+    font-size: 23px;
+}
+#more{
+    padding-right: 28.5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: deeppink;
+}
+#see{
+    padding-right: .5%;
+}
+#last{
+    padding-left: 25%;
+    padding-right: 25%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.button-2{
+    width: 125px;
+    height: 32px;
+    padding-top: 10px;
+    justify-content:flex-start;
+    background-color: rgb(170, 2, 148);
+}
+footer{
+    margin-top: 100px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    background-color: dimgray;
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
